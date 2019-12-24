@@ -13,6 +13,8 @@
 		6F72418523AE76CA00990210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72418423AE76CA00990210 /* Assets.xcassets */; };
 		6F72418823AE76CA00990210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72418723AE76CA00990210 /* Preview Assets.xcassets */; };
 		6F72418B23AE76CA00990210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72418923AE76CA00990210 /* LaunchScreen.storyboard */; };
+		6F72419323AE76F700990210 /* BeaconDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72419223AE76F700990210 /* BeaconDetector.swift */; };
+		6F72419523AE772D00990210 /* BigText_Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72419423AE772D00990210 /* BigText_Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F72418723AE76CA00990210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F72418A23AE76CA00990210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F72418C23AE76CA00990210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72419223AE76F700990210 /* BeaconDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDetector.swift; sourceTree = "<group>"; };
+		6F72419423AE772D00990210 /* BigText_Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigText_Modifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6F72417E23AE76C900990210 /* AppDelegate.swift */,
 				6F72418023AE76C900990210 /* SceneDelegate.swift */,
 				6F72418223AE76C900990210 /* ContentView.swift */,
+				6F72419223AE76F700990210 /* BeaconDetector.swift */,
+				6F72419423AE772D00990210 /* BigText_Modifier.swift */,
 				6F72418423AE76CA00990210 /* Assets.xcassets */,
 				6F72418923AE76CA00990210 /* LaunchScreen.storyboard */,
 				6F72418C23AE76CA00990210 /* Info.plist */,
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F72419523AE772D00990210 /* BigText_Modifier.swift in Sources */,
 				6F72417F23AE76C900990210 /* AppDelegate.swift in Sources */,
+				6F72419323AE76F700990210 /* BeaconDetector.swift in Sources */,
 				6F72418123AE76C900990210 /* SceneDelegate.swift in Sources */,
 				6F72418323AE76C900990210 /* ContentView.swift in Sources */,
 			);

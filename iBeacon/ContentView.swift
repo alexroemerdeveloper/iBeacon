@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var detector = BeaconDecetor()
+    
     var body: some View {
-        Text("Hello, World!")
+        if detector.lastDistance == .immediate {
+            return Text("Right Here").modifier(BigText()).background(Color.red).edgesIgnoringSafeArea(.all)
+        } else if detector.lastDistance == .near {
+            return Text("Near").modifier(BigText()).background(Color.orange).edgesIgnoringSafeArea(.all)
+        } else if detector.lastDistance == .far {
+            return Text("Far").modifier(BigText()).background(Color.blue).edgesIgnoringSafeArea(.all)
+        } else {
+            return Text("UNKOWN").modifier(BigText()).background(Color.gray).edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
